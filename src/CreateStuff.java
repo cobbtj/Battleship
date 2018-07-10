@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Random;
 
-public class CreateStuff extends Main {
+public class CreateStuff extends Battleship {
     public static void initiateShip(int[][] ships) throws IOException {
         Random random = new Random();
 

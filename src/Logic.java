@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Logic extends Main {
+public class Logic extends Battleship {
     public static void shoot(int[] shoot) throws IOException {
         Scanner input = new Scanner( System.in );
 

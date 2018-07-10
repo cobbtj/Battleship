@@ -1,6 +1,6 @@
 import java.io.IOException;
 
-public class BoardModification extends Main {
+public class BoardModification extends Battleship {
 
     public static void showBoard(int[][] board) throws IOException {
         System.out.println( "\t1 \t2 \t3 \t4 \t5 \t6 \t7 \t8 \t9" );
