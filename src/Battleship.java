@@ -16,7 +16,7 @@ public class Battleship {
         System.out.println("The symbols: ~ = Water (not guessed) , X = hit, * = miss.");
         System.out.println("Enjoy!");
         int[][] board = new int[9][9];
-        int[][] ships = new int[3][2];
+        int[][] ships = new int[5][2];
         int[] shot = new int[2];
         int attempts = 0,
                 shotHit = 0;
@@ -40,9 +40,9 @@ public class Battleship {
             BoardModification.changeboard( shot, ships, board );
 
 
-        } while (shotHit != 3);
+        } while (shotHit != 5);
 
-        System.out.println( "\n\n\nBattleship finished! You hit 3 ships in " + attempts + " attempts" );
+        System.out.println( "\n\n\nBattleship finished! You hit 5 ships in " + attempts + " attempts" );
         BoardModification.showBoard( board );
         System.out.println("Would you like to play again? 1 for yes, 2 for no");
         Scanner sc = new Scanner(System.in);
