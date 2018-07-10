@@ -9,9 +9,9 @@ public class Main {
 
     public static void play() throws IOException {
         System.out.println("Welcome to Battleship! This game is not your standard battleship.");
-        System.out.println("There are three ships hidden in a 5 by 5 grid.");
+        System.out.println("There are three ships hidden in a 9 by 9 grid.");
         System.out.println("You will be asked to pick a row, then a column.");
-        System.out.println("If you do no pick a number from 1-5, the program will crash. Don't be that guy...");
+        System.out.println("If you do no pick a number from 1-9, the program will crash. Don't be that guy...");
         System.out.println("After each guess, a hint will display showing how many ships are in the row and column you selected.");
         System.out.println("The symbols: ~ = Water (not guessed) , X = hit, * = miss.");
         System.out.println("Enjoy!");
